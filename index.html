@@ -1,10 +1,13 @@
+<!-- In this file you are going to write html code -->
+
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Ark Studio</title>
-    <link rel="stylesheet" href="C:\Users\HP\Documents\Git Projects\ark-studio\styles\main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>ARK Studio</title>
 </head>
 <body>
     <header class="transparent_nav">
@@ -18,47 +21,60 @@
             </ul>
         </nav>
     </header>
+
     <section class="billboard">
         <img src="img/billboard.jpg" alt="">
     </section>
+
     <section class="cta">
         <p id="cta_text">Have a project in mind? We would love to hear from you!</p>
-        <a id="cta_link">GET IN TOUCH WITH US</a>
+        <a href="" id="cta_link">GET IN TOUCH WITH US</a>
     </section>
-    <section class="services wrapper">
+
+	<section class="services wrapper">
         <h2>We are ARK Studio, we make awesome stuff.</h2>
         <div class="separator">
             <img src="img/separator.png" alt=""/>
         </div>
-        <ul>
+        <ul id='service_list'>
             <li>
-                <img class="s_icons" src="img/s1.png" alt="">
-                <h3>Design</h3>
+                <img class="s_icons" src="img/s1.png" alt=""/>
+                <h3>Slamco laboris velitesse</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis.</p>
             </li>
+
             <li>
-                <img class="s_icons" src="img/s2.png" alt="">
-                <h3>Content Writing</h3>
+                <img class="s_icons" src="img/s2.png" alt=""/>
+                <h3>Slamco laboris velitesse</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ullam?/p>
             </li>
+
             <li>
-                <img class="s_icons" src="img/s3.png" alt="">
-                <h3>Develop</h3>
+                <img class="s_icons" src="img/s3.png" alt=""/>
+                <h3>Slamco laboris velitesse</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, fuga!</p>
             </li>
         </ul>
     </section>
+
     <section class="recent_work">
-        <img src="img/w1.jpg">
-        <img src="img/w2.jpg">
-        <img src="img/w3.jpg">
-        <img src="img/w4.jpg">
-        <img src="img/w5.jpg">
+        <img src="img/w1.jpg" alt="">
+        <img src="img/w2.jpg" alt="">
+        <img src="img/w3.jpg" alt="">
+        <img src="img/w4.jpg" alt="">
+        <img src="img/w5.jpg" alt="">
     </section>
-    <section class="testimonials wrappers">
+
+    <section class="testimonials wrapper">
+        
         <ul class="t-li">
             <li>
                 <div class="t-col">
                     <div class="testimonial">
                         <img src="img/client1.jpg" alt="">
                         <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
                     </div>
                 </div>
             </li>
@@ -68,6 +84,8 @@
                     <div class="testimonial">
                         <img src="img/client2.jpg" alt="">
                         <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
                     </div>
                 </div>
             </li>
@@ -77,42 +95,45 @@
                     <div class="testimonial">
                         <img src="img/client3.jpg" alt="">
                         <p class="t-name">John Doe / Manager</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti odit. Voluptates harum unde
+                            exercitationem. Harum non rerum hic sint.</p>
                     </div>
                 </div>
             </li>
         </ul>
     </section>
-    <footer> 
+
+    <footer>
         <div class="footer_widget">
-        <div>
-            <h3>Location</h3>
-            <br><p>3301 New Mexico Avenue Washington, DC 20016</p>
-            <p>(202) 537-0787</p>
-            <br><img src="img/social.png">
-        </div>
-        <div>
-            <h3>Company</h3>
-            <br><ul id="comp_list">
-                <li><a id="comp_item_1">Our Story</a></li>
-                <li><a id="comp_item_2">Mission</a></li>
-                <li><a id="comp_item_3">Journal</a></li>
-                <li><a id="comp_item_4">Careers</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Support</h3>
-            <br><ul id="sup_list">
-                <li><a id="sup_item_1">FAQ</a></li>
-                <li><a id="sup_item_2">Contact Us</a></li>
-                <li><a id="sup_item_3">Policies</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>ARK Studio</h3>
-            <br><p>We aim to search good, develop better, service best.</p>
-        </div>
+            <div>
+                <h1>Location</h1>
+                <p>3301 New Mexico Avenue</p>
+                <p>Washington, DC 20016</p>
+                <strong>(202) 537-0787</strong>
+            </div>
+            <div>
+                <h1>Company</h1>
+                <ul id="comp_list">
+                    <li><a href="" id="comp_item_1">Our Story</a></li>
+                    <li><a href="" id="comp_item_2">Mission</a></li>
+                    <li><a href="" id="comp_item_3">Journal</a></li>
+                    <li><a href="" id="comp_item_4">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>Support</h1>
+                <ul id="sup_list">
+                    <li><a id="sup_item_1" href="">FAQ</a></li>
+                    <li><a id="sup_item_2" href="">Contact Us</a></li>
+                    <li><a id="sup_item_3" href="">Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>ARK Studio</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sit iure earum illo. Assumenda, harum!</p>
+            </div>
         </div>
         <p class="rights">2014 ARK Studio - All Rights Reserved</p>
-        </footer>
+    </footer>
 </body>
 </html>

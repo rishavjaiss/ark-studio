@@ -1,11 +1,13 @@
+/* In this file you are going to write the CSS code */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: #242524; */
+    font-family: 'Roboto', sans-serif;
 }
 
 li, a {
@@ -19,14 +21,17 @@ li, a {
 header {
     display: flex;
     justify-content: space-between;
-
+    /* justify-content: flex-end; */
     align-items: center;
     padding: 10px 10%;
     background-color: rgba(255, 255, 255, 0.7);
+    /* position: fixed; */ 
+
 }
 
 .logo {
     cursor: pointer;
+    /* margin: auto; */
 }
 
 #nav_list {
@@ -47,12 +52,14 @@ header {
     color: #0088a9;
 }
 
-
+/* Billboard */
 .billboard > img {
     width: 100vw;
     height: 90vh;
     overflow: hidden;
 }
+
+/* cta */
 
 
 .cta {
@@ -81,6 +88,8 @@ header {
     text-decoration: none;
     display: inline-block;
 }
+
+/* Services */
 
 .services {
     padding: 100px 100px;
@@ -129,6 +138,9 @@ header {
     line-height: 22px;
 }
 
+
+/* image gallery */
+
 .recent_work img {
     width: 20%;
     transition: .5s ease;
@@ -142,6 +154,8 @@ header {
 .recent_work img:hover {
     opacity: 0.3;
 }
+
+/* Testimonials */
 
 .testimonials {
     padding: 40px 20px;
@@ -172,6 +186,7 @@ header {
 }
 
 .t-li > li {
+    /* color: red; */
     text-decoration: none;
     display: inline-block;
     max-width: 250px;
@@ -180,6 +195,7 @@ header {
 
 .t-col {
     flex: 33.33%;
+    /* max-width: 33.33%; */
     padding: 15px;
 }
 
@@ -196,8 +212,11 @@ header {
 
 .t-name {
     font-size: 15px;
+    /* text-transform: uppercase; */
     margin: 20px 0;
 }
+
+/* footer */
 
 .footer_widget {
     display: flex;
