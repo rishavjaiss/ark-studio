@@ -1,3 +1,235 @@
-*{
-    font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li, a {
+    
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+#nav_list {
+    list-style: none;
+}
+
+#nav_list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#nav_list li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+#nav_list li a:hover {
+    color: #0088a9;
+}
+
+
+.billboard > img {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.cta:hover {
+    background-color: lightgrey;
+}
+
+.cta p {
+    display: inline-block;
+}
+
+.cta a {
+    display: inline-block;
+}
+
+#cta_link {
+    background-color: #0088a9;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.services {
+    padding: 100px 100px;
+    background: #fbfbfb;
+}
+
+.services h2{
+    color: #606060;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services .separator{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.services ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    overflow: hidden;
+}
+
+.services ul li{
+    width: 293px;
+    height: auto;
+    text-align: center;
+}
+
+.services ul li img.s_icons{
+    margin-bottom: 40px;
+}
+
+.services ul li h3{
+    color: #746969;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services ul li p{
+    color: #746969;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.recent_work img {
+    width: 20%;
+    transition: .5s ease;
+}
+
+.recent_work {
+    display: flex;
+    justify-content: center;
+}
+
+.recent_work img:hover {
+    opacity: 0.3;
+}
+
+.testimonials {
+    padding: 40px 20px;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials > h1 {
+    text-align: center;
+    padding: 100px;
+}
+
+.testimonials > ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.t-li > li {
+    text-decoration: none;
+    display: inline-block;
+    max-width: 250px;
+
+}
+
+.t-col {
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.t-name {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.footer_widget {
+    display: flex;
+    justify-content: space-around;
+    background-color: #353535;
+    color: white;
+
+}
+
+.footer_widget > div {
+    width: 200px;
+    padding: 25px;
+}
+
+.footer_widget > div > h1 {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+#comp_list > li, a {
+    color: white;
+    padding: 5px 0;
+}
+
+#sup_list > li, a {
+    color: white;
+    padding: 5px 0;
+}
+
+.rights {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }

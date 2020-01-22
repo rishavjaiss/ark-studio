@@ -7,13 +7,13 @@
 </head>
 <body>
     <header class="transparent_nav">
+        <img src="img/logo.png" alt="" class="logo">
         <nav class="nav_bar">
-            <img src="C:\Users\HP\Documents\Git Projects\ark-studio\img\logo.png" alt="logo">
             <ul id="nav_list">
-            <a id="nav_item_1">Our Story</a>
-            <a id="nav_item_2">Products</a>
-            <a id="nav_item_3">Journal</a>
-            <a id="nav_item_4">Contact</a>
+                <li><a href="" id="nav_item_1">Our Story</a></li>
+                <li><a href="" id="nav_item_2">Products</a></li>
+                <li><a href="" id="nav_item_3">Journal</a></li>
+                <li><a href="" id="nav_item_4">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,19 +29,17 @@
         <div class="separator">
             <img src="img/separator.png" alt=""/>
         </div>
-        <ul id='service_list'>
+        <ul>
             <li>
-                <img class="s_icons" src="img/s1.png" alt=""/>
+                <img class="s_icons" src="img/s1.png" alt="">
                 <h3>Design</h3>
             </li>
-
             <li>
-                <img class="s_icons" src="img/s2.png" alt=""/>
+                <img class="s_icons" src="img/s2.png" alt="">
                 <h3>Content Writing</h3>
             </li>
-
             <li>
-                <img class="s_icons" src="img/s3.png" alt=""/>
+                <img class="s_icons" src="img/s3.png" alt="">
                 <h3>Develop</h3>
             </li>
         </ul>
@@ -53,23 +51,47 @@
         <img src="img/w4.jpg">
         <img src="img/w5.jpg">
     </section>
-    <section class="testimonials">
-        <ul>
-            <li>John Doe /Manager</li>
-            <li>Barack Obama /UI Designer</li>
-            <li>Rajiv Mehta /SEO Expert</li>
+    <section class="testimonials wrappers">
+        <ul class="t-li">
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client1.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client2.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="t-col">
+                    <div class="testimonial">
+                        <img src="img/client3.jpg" alt="">
+                        <p class="t-name">John Doe / Manager</p>
+                    </div>
+                </div>
+            </li>
         </ul>
     </section>
-    <footer class="footer_widget">
+    <footer> 
+        <div class="footer_widget">
         <div>
             <h3>Location</h3>
-            <p>3301 New Mexico Avenue Washington, DC 20016</p>
+            <br><p>3301 New Mexico Avenue Washington, DC 20016</p>
             <p>(202) 537-0787</p>
-            <img src="img/social.png">
+            <br><img src="img/social.png">
         </div>
         <div>
             <h3>Company</h3>
-            <ul id="comp_list">
+            <br><ul id="comp_list">
                 <li><a id="comp_item_1">Our Story</a></li>
                 <li><a id="comp_item_2">Mission</a></li>
                 <li><a id="comp_item_3">Journal</a></li>
@@ -78,7 +100,7 @@
         </div>
         <div>
             <h3>Support</h3>
-            <ul id="sup_list">
+            <br><ul id="sup_list">
                 <li><a id="sup_item_1">FAQ</a></li>
                 <li><a id="sup_item_2">Contact Us</a></li>
                 <li><a id="sup_item_3">Policies</a></li>
@@ -86,9 +108,10 @@
         </div>
         <div>
             <h3>ARK Studio</h3>
-            <p>We aim to search good,develop better,service best.</p>
+            <br><p>We aim to search good, develop better, service best.</p>
+        </div>
         </div>
         <p class="rights">2020 ARK Studio - All Rights Reserved</p>
-    </footer>
+        </footer>
 </body>
 </html>
